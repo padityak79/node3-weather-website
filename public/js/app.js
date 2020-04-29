@@ -31,17 +31,3 @@ form.addEventListener('submit', (e) => {
     })
 })
 
-// fetch('http://localhost:3000/weather?address=!')
-//     .then(response => {
-//         response.json().then(
-//         ({location,forecast,error} = {}) => {
-//             if(error) console.log(error);
-//             else {
-//                 console.log('location :',location)
-//                 console.log('forecast :',forecast);
-//             }
-//         })   
-//     })
-//     .catch(error => {
-//         console.log(error);
-//     })
